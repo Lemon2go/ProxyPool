@@ -4,7 +4,7 @@ import aiohttp
 
 class UsabilityTester(object):
     """检验器，负责检验给定代理的可用性。"""
-    test_api = 'https://www.baidu.com'
+    test_api = 'https://sso.pokemon.com/sso/login?locale=en&service=https://club.pokemon.com/us/pokemon-trainer-club/casloginm'
 
     def __init__(self):
         self.raw_proxies = None
